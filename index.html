@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Jim Croche</title>
+		<link id="csslink" rel="stylesheet" href="main.css">
+		
+		<script>
+			function toggleCSS() {
+				var currentCSS = document.getElementById('csslink');
+
+				if (currentCSS.getAttribute('href') == 'main.css') {		
+					currentCSS.setAttribute('href', 'alternate.css');
+				} else {
+					currentCSS.setAttribute('href', 'main.css');
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>Jim Croche</h1>
+			
+			<p> To change styles click here: 
+				<button onclick="toggleCSS()">Switch Style</button>
+			</p>
+			
+			<nav>
+				<a href="#about">About</a> &nbsp;
+				<a href="#popularSongs">Popular Songs</a> &nbsp;
+				<a href="#albums">Albums</a> &nbsp;
+				<a href="#links">Links</a>
+			</nav>
+			<br>
+			<img id="mainImg" src="img1.jpg" alt="main image" height="400" width="500">
+		</header>
+		
+		<main>
+			<section id="about">
+				<h2>About</h2>
+				<p>
+					James Joseph Croce (January 10, 1943 – September 20, 1973) was an American folk and rock singer-songwriter. 
+					Between 1966 and 1973, he released five studio albums and numerous singles. 
+					During this period, Croce took a series of odd jobs to pay bills while he continued to write, record, and perform concerts. 
+					After Croce formed a partnership with songwriter and guitarist Maury Muehleisen, his fortunes turned in the early 1970s. 
+					Croce's breakthrough came in 1972; his third album, You Don't Mess Around with Jim, produced three charting singles, 
+					including "Time in a Bottle", which reached No. 1 after Croce died. The follow-up album, Life and Times, 
+					included the song "Bad, Bad Leroy Brown", which was the only No. 1 hit he had during his lifetime.
+					<br></br>
+					On September 20, 1973, at the height of his popularity and the day before the lead single to his fifth album I Got a Name was released, 
+					Croce and five others died in a plane crash. His music continued to chart throughout the 1970s following his death. 
+					Croce's wife and early songwriting partner, Ingrid, continued to write and record after his death, 
+					and their son A. J. Croce became a singer-songwriter in the 1990s.
+					<br></br>
+					- Wikipedia
+				</p>
+			</section>
+			
+			<section id="popularSongs">
+				<h2>Popular Songs</h2>
+				<p>Here is a list of some of Croche's most popular songs:</p>
+				<ul>
+					<li>Time in a Bottle</li>
+					<li>Operator</li>
+					<li>I'll Have To Say I Love You In a Song</li>
+					<li>Bad, Bad Leroy Brown</li>
+					<li>You Don't Mess Around With Jim</li>
+					<li>I Got a Name</li>
+					<li>Photographs and Memories</li>				
+				</ul>
+			</section>
+			
+			<section id="albums">
+				<h2>Albums</h2>
+				<table>
+					<tr>
+						<th>Album Cover</th>
+						<th>Name</th>
+						<th>Date of Release</th>
+					</tr>
+					<tr>
+						<td><img src="facets.png" alt="Facets" height="200" width="200"></td>
+						<td>Facets</td>
+						<td>1966</td>
+					</tr>
+					<tr>
+						<td><img src="homerecordings.jpg" alt="Home Recordings" height="200" width="200"></td>
+						<td>Home Recordings</td>
+						<td>January 1969</td>
+					</tr>
+					<tr>
+						<td><img src="DontMessAroundWithJim.png" alt="You Don't Mess Around With Jim" height="200" width="200"></td>
+						<td>You Don't Mess Around With Jim</td>
+						<td>April 1972</td>
+					</tr>
+					<tr>
+						<td><img src="LifeandTimes.jpg" alt="Life and Times" height="200" width="200"></td>
+						<td>Life and Times</td>
+						<td>July 1973</td>
+					</tr>	
+					<tr>
+						<td><img src="IGotAName.png" alt="I Got A Name" height="200" width="200"></td>
+						<td>I Got a Name</td>
+						<td>December 1973</td>
+					</tr>					
+				</table>
+			</section>
+			
+			<section id="links">
+				<h2>Links</h2>
+					<p>To learn more, click on these links.</p>
+						<a href="other.html">More Info</a> &nbsp;
+						<a href="https://en.wikipedia.org/wiki/Jim_Croce" target="_blank">Wikipedia</a> &nbsp;
+						<a href="https://jimcroce.com/" target="_blank">Official Website</a>
+			</section>
+			
+		</main>
+		
+		<footer>
+			<p>
+				&copy; 2023 JD Southwell
+			</p>
+		</footer>
+	</body>
+</html>

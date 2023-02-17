@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>More Info</title>
+		<link id="csslink" rel="stylesheet" href="main.css">
+		
+		<script>
+			function toggleCSS() {
+				var currentCSS = document.getElementById('csslink');
+
+				if (currentCSS.getAttribute('href') == 'main.css') {
+					currentCSS.setAttribute('href', 'alternate.css');
+				} else {
+					currentCSS.setAttribute('href', 'main.css');
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>More Info</h1>
+			
+			<p> To change styles click here: 
+				<button onclick="toggleCSS()">Switch Style</button> 
+			</p>
+			
+			<nav>
+				<a href="index.html">Home</a> &nbsp;
+				<a href="https://en.wikipedia.org/wiki/Jim_Croce" target="_blank">Wikipedia</a> &nbsp;
+				<a href="https://jimcroce.com/" target="_blank">Official Website</a>
+			</nav>
+			<br>
+		</header>
+		
+		<main>
+			<img id="mainImg" src="GreatestHits.png" alt="Greatest Hits" height="400" width="500">
+			
+			<section>
+				<h2>Death</h2>
+				<p>On the night of Thursday, September 20, 1973, during Croce's Life and Times tour and the day 
+					before his ABC single "I Got a Name" was released, Croce and five others were killed when their 
+					chartered Beechcraft E18S crashed into a tree during takeoff from the Natchitoches Regional Airport 
+					in Natchitoches, Louisiana. Croce was 30 years old. Others killed in the crash were pilot Robert N. Elliott, 
+					Croce's bandmate Maury Muehleisen, comedian George Stevens, manager and booking agent Kenneth D. Cortese, 
+					and road manager Dennis Rast. An hour before the crash, Croce had completed a concert at 
+					Northwestern State University's Prather Coliseum in Natchitoches; he was flying to Sherman, Texas, 
+					for a concert at Austin College.
+					<br></br>
+					- Wikipedia
+				</p>
+			</section>
+		</main>
+		
+		<footer>
+			<p>
+				&copy; 2023 JD Southwell
+			</p>
+		</footer>
+	</body>
+</html>

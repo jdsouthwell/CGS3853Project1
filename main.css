@@ -1,0 +1,47 @@
+:root {
+   --header-color: black;
+   --font-color: white;
+   --bg-color: maroon;
+}
+
+body {
+   color: var(--font-color);
+   background-color: var(--bg-color);
+}
+      
+h1 {
+   color: var(--header-color);
+   font-size: 50px;
+   font-family: Goudy Old Style;
+   text-shadow: 2px 2px 3px gray;
+ }
+      
+h2 {
+   color: var(--header-color);
+   background-color: gray;
+}
+
+a:link {
+   color: blue;
+}   
+
+a:visited {
+   color: purple;  
+}  
+
+nav {
+   text-align: left;
+   margin-top: 14px;
+   margin-bottom: 10px;
+}
+
+nav a {
+   text-decoration: none;
+   text-transform: lowercase;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+td {
+   padding: 10px;
+}

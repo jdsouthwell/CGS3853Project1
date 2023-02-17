@@ -1,0 +1,76 @@
+:root {
+   --header-color: black;
+   --font-color: black;
+   --bg-color: palegreen;
+}
+
+body {
+   color: var(--font-color);
+   background-color: var(--bg-color);
+}
+      
+h1 {
+   color: var(--header-color);
+   font-size: 50px;
+   font-family: Arial;
+   text-shadow: 4px 4px 6px blue;
+   text-align: center;
+ }
+      
+h2 {
+   color: var(--header-color);
+   text-shadow: 2px 2px 3px gray;
+   font-size: 30px;
+   text-align: center;
+
+}
+
+a:link {
+   color: blue;
+}   
+
+a:visited {
+   color: purple;  
+}
+
+a:hover {
+	color: yellow;
+}
+
+nav {
+   text-align: center;
+   margin-top: 14px;
+   margin-bottom: 10px;
+}
+
+nav a {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+th {
+	font-size: 20px;
+}
+
+td {
+	padding: 5px;
+    font-weight: bold;
+}
+
+#links {
+	text-align: center;
+	font-size: larger;
+}
+
+#mainImg {
+	position: relative;
+	top: 0px;
+	left: 380px;
+}
+
+#popularSongs, #about {
+	font-size: larger;
+	font-family: arial;
+}
